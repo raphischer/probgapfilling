@@ -1,0 +1,6 @@
+include probgf/cloudshape.png
+include probgf/standalone_template.tex
+include probgf/cleanup.sh
+include probgf/logo1.png
+include probgf/logo2.png
+include probgf/logo3.png
