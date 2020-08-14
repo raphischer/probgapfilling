@@ -12,14 +12,14 @@ Keep in mind that this software serves as an exemplary implementation of theoret
 
 The software is implemented and tested with Python 3.6, and uses some external Python packages.
 The easiest way of use is to to create an Anaconda environment from the `environment.yml` file.
-You can of course also try to install the packages yourself, hoping that you don't run into compatibility problems here.
-The repository also comes with a Dockerfile if you want to run the software in a Docker container.
-Before using its components, you should install this package by running `pip install .` in the root directoriy of its repository.
+If you want to use a custom Python installation, you can check this file for required packages.
+The repository also comes with a Dockerfile if you want to run the software in a Docker container (in the container make sure to first run `conda activate probgf`).
+Before usage, you should install this package by running `pip install .` in the root directoriy of its repository (already done in Docker image).
 
 ## How To Use
 
 For standalone gap filling, simply run `python -m probgf`. Pass `-h` for a detailed overview of command line parameters.
-You can clean up the current directory of any *probgf* related files and results by passing `-d C` on the command line (the corresponding method is also available from `probgf.helpers`).
+You can clean up the current directory of any `probgf` related files and results by passing `-d C` on the command line (the corresponding function is also available from `probgf.helpers`).
 
 `scripts/gap_filling_viewer.py` allows to interactively inspect gap filling results, it is simply started via command line.
 It uses *Pillow* and *Tkinter*, and can be controlled via mouse and keyboard.
@@ -53,7 +53,8 @@ For usage, download it directly, unzip the obtained archive, and pass `-d [downl
 ## Attached Results
 
 Images and error reports on `GER` data can be found at <https://www.dropbox.com/sh/dojhb0dhzljznyy/AAC-PVlGidGFkx-RFvQw5oG3a>, and results on `FRA` data can be downloaded from <https://www.dropbox.com/sh/rj959rhjr9ndec0/AAAOA8vSzv0pANMFZXstjxwWa>.
-This software allows to reproduce all these results, the command line arguments can be dervied from filenames. Resulting images can also be inspected with the `gap_filling_viewer`, by passing the downloaded directories as arguments. As an example, viewing downloaded *CROSS* predictions on `GER` can be done by running:
+This software allows to reproduce the results, the command line arguments can be derived from filenames.
+Resulting images can also be inspected with the `gap_filling_viewer`, by passing the downloaded directories as arguments. As an example, for viewing *CROSS* gap filling results on `GER` data, run:
 
 `python scripts/gap_filling_viewer.py`
 `-l [path]/imgs/original_outline/`
