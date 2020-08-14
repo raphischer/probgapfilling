@@ -2,15 +2,15 @@ name: probgf
 channels:
   - defaults
 dependencies:
-  - matplotlib=3.2.2=0
-  - networkx=2.4=py_1
-  - numpy=1.19.1=py36h5510c5b_0
-  - pillow=7.2.0=py36hcc1f983_0
-  - pip=20.1.1=py36_1
-  - python=3.6.10=h9f7ef89_2
-  - scikit-image=0.16.2=py36h47e9c7a_0
-  - scikit-learn=0.23.1=py36h25d0782_0
-  - scipy=1.5.0=py36h9439919_0
+  - matplotlib=3.2.2
+  - networkx=2.4
+  - numpy=1.19.1
+  - pillow=7.2.0
+  - pip=20.1.1
+  - python=3.6.10
+  - scikit-image=0.16.2
+  - scikit-learn=0.23.1
+  - scipy=1.5.0
   - pip:
     - pxpy==1.0a20
 prefix: E:\Programme\Anaconda\envs\probgf
