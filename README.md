@@ -3,7 +3,10 @@
 ## General Information
 
 This repository contains spatio-temporal gap filling software.
-Our probabilistic gap filling approach scientifically published in October 2020, we here allow reviewers and readers to reproduce and better understand our results.
+We explain our method in the paper "No Cloud on the Horizon: Probabilistic Gap Filling in Satellite Image Series", which is published at DSAA 2020 (available soon).
+We here allow reviewers and readers to reproduce and better understand our results.
+Also make sure to watch our presentation video: https://youtu.be/-IEl3ffwqhw
+[![](http://img.youtube.com/vi/-IEl3ffwqhw/0.jpg)](http://www.youtube.com/watch?v=-IEl3ffwqhw "DSAA 2020: No Cloud on the Horizon: Probabilistic Gap Filling in Satellite Image Series")
 
 We deploy probabilistic machine learning (ML) methods on incomplete dataset to reconstruct missing values.
 Keep in mind that this software serves as an exemplary implementation of theoretical methods and is intended for scientific usage.
