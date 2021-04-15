@@ -1,4 +1,4 @@
-# Spatio-temporal Gap Filling with Machine Learning - probgf
+# Probabilistic Gap Filling with Machine Learning - probgf
 
 ## General Information
 
